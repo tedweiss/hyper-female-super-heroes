@@ -1,0 +1,14 @@
+# dependencies
+node_modules
+
+# compiled output
+index.js
+
+# logs
+*.log
+
+# OS
+.DS_Store
+
+# IDE
+.vscode
