@@ -1,0 +1,53 @@
+{
+  "name": "hyper-female-super-heroes",
+  "version": "0.1.0",
+  "keywords": [
+    "hyper",
+    "hyper-theme",
+    "theme",
+    "hyper-female-super-heroes",
+    "female-super-heroes",
+    "heroes",
+    "villians"
+  ],
+  "description": "female super heroes theme for hyper",
+  "dependencies": {
+    "babel-loader": "^8.0.4",
+    "color": "^3.0.0",
+    "css-loader": "^2.1.0",
+    "style-loader": "^0.23.1"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.2.3",
+    "@babel/core": "^7.2.2",
+    "@babel/node": "^7.2.2",
+    "@babel/preset-env": "^7.2.3",
+    "@babel/preset-react": "^7.0.0",
+    "@babel/register": "^7.0.0",
+    "babel-jest": "^23.6.0",
+    "jest": "^23.6.0",
+    "standard": "^12.0.1",
+    "webpack": "^4.28.3",
+    "webpack-cli": "^3.1.2",
+    "webpack-dev-server": "^3.1.14"
+  },
+  "scripts": {
+    "dev": "webpack --mode development ./src/app.js --output ./index.js",
+    "pro": "webpack --mode production ./src/app.js --output ./index.js",
+    "test": "jest --watchAll"
+  },
+  "standard": {
+    "parser": "babel-eslint",
+    "globals": [
+      "describe",
+      "test",
+      "expect"
+    ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/tedweiss/hyper-female-super-heroes"
+  },
+  "author": "Ted Weiss",
+  "license": "MIT"
+}
