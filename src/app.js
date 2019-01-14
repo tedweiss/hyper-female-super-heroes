@@ -2,35 +2,11 @@
 import color from 'color'
 import path from 'path'
 
+import { getCharacter } from './utils'
+
 exports.decorateConfig = config => {
-  const character = {
-    name: 'x-23',
-    side: 'hero',
-    colors: {
-      backgroundColor: '#7d929d',
-      header: '#333f42',
-      tabs: '#38464e',
-      activeTabBottomColor: '#9b8463'
-    },
-    terminalTextColors: {
-      black: '#000000',
-      red: '#ED0C05',
-      green: '#34E60F',
-      yellow: '#E5D30F',
-      blue: '#0A29CC',
-      magenta: '#CD0DE8',
-      cyan: '#07CCD9',
-      white: '#FFFFFF',
-      lightBlack: '#000000',
-      lightRed: '#FF0D06',
-      lightGreen: '#3AFF11',
-      lightYellow: '#FFEB10',
-      lightBlue: '#0C33FF',
-      lightMagenta: '#E10EFF',
-      lightCyan: '#08F0FF',
-      lightWhite: '#FFFFFF'
-    }
-  }
+  const characterNames = ['invisible-woman', 'wasp', 'x-23', 'mystique', 'phoenix']
+  const character = getCharacter(characterNames)
   const colors = character.colors
   const primary = colors.backgroundColor
   const header = colors.header
