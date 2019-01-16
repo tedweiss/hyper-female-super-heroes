@@ -1,6 +1,10 @@
 import { characters } from './characters'
 
 export const getCharacter = userSelectedCharacters => {
+  let random = userSelectedCharacters === 'random'
+  if (random) {
+    userSelectedCharacters = makeCharacterArray()
+  }
   let chosenCharacter = ''
   let defaultCharacter = 'x-23'
   let isArray = Array.isArray(userSelectedCharacters)
@@ -27,4 +31,14 @@ const matchCharacter = chosenCharacterName => {
       return character
     }
   }
+}
+
+export const makeCharacterArray = () => {
+  let characterNames = []
+  for (var i = 0; i < characters.length; i++) {
+    let character = characters[i]
+    let characterName = character.name
+    characterNames.push(characterName)
+  }
+  return characterNames
 }

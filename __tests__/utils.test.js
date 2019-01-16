@@ -1,5 +1,5 @@
 import { characters } from '../src/characters'
-import { getCharacter } from '../src/utils'
+import { getCharacter, makeCharacterArray } from '../src/utils'
 
 describe('getCharacter', () => {
   test('should return user selected character if only one is input into the array', () => {
@@ -17,19 +17,24 @@ describe('getCharacter', () => {
     let chosenName = getCharacter(userSelectedCharacters).name
     expect(userSelectedCharacters).toEqual(expect.arrayContaining([chosenName]))
   })
-  test("should return default character when an empty array is given", () => {
+  test('should return default character when an empty array is given', () => {
     let userSelectedCharacters = []
     let defaultCharacter = characters[2]
     expect(getCharacter(userSelectedCharacters)).toEqual(defaultCharacter)
   })
-  test("should return default character when an array with an empty string is given", () => {
+  test('should return default character when an array with an empty string is given', () => {
     let userSelectedCharacters = ['']
     let defaultCharacter = characters[2]
     expect(getCharacter(userSelectedCharacters)).toEqual(defaultCharacter)
   })
-  test("should return default character when an empty string is given", () => {
+  test('should return default character when an empty string is given', () => {
     let userSelectedCharacters = ''
     let defaultCharacter = characters[2]
     expect(getCharacter(userSelectedCharacters)).toEqual(defaultCharacter)
+  })
+  test("should return randomly selected character from character list when 'random' is entered", () => {
+    let chosenName = getCharacter('random').name
+    let characterNames = makeCharacterArray()
+    expect(characterNames).toEqual(expect.arrayContaining([chosenName]))
   })
 })
