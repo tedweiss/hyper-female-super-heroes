@@ -5,12 +5,12 @@ export const getCharacter = userSelectedCharacters => {
   let defaultCharacter = 'x-23'
   let isArray = Array.isArray(userSelectedCharacters)
   let hasUserSelectedCharacters = userSelectedCharacters.length > 0
-  let notEmptyStringInArray = userSelectedCharacters[0] !== ''
-  let hasSelections = isArray && hasUserSelectedCharacters && notEmptyStringInArray
+  let noValueInArrayPositionOne = !userSelectedCharacters[0]
+  let hasSelections = isArray && hasUserSelectedCharacters && !noValueInArrayPositionOne
   if (hasSelections) {
     let randomCharacter = userSelectedCharacters[Math.floor(Math.random() * userSelectedCharacters.length)]
     chosenCharacter = randomCharacter
-  } else if (!hasUserSelectedCharacters) {
+  } else if (noValueInArrayPositionOne) {
     chosenCharacter = defaultCharacter
   } else {
     chosenCharacter = userSelectedCharacters || defaultCharacter

@@ -22,4 +22,9 @@ describe('getCharacter', () => {
     let defaultCharacter = characters[2]
     expect(getCharacter(userSelectedCharacters)).toEqual(defaultCharacter)
   })
+  test("should return default character when an array with an empty string is given", () => {
+    let userSelectedCharacters = ['']
+    let defaultCharacter = characters[2]
+    expect(getCharacter(userSelectedCharacters)).toEqual(defaultCharacter)
+  })
 })
