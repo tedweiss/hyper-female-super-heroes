@@ -17,4 +17,9 @@ describe('getCharacter', () => {
     let chosenName = getCharacter(userSelectedCharacters).name
     expect(userSelectedCharacters).toEqual(expect.arrayContaining([chosenName]))
   })
+  test("should return default character when an empty array is given", () => {
+    let userSelectedCharacters = []
+    let defaultCharacter = characters[2]
+    expect(getCharacter(userSelectedCharacters)).toEqual(defaultCharacter)
+  })
 })
