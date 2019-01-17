@@ -37,4 +37,9 @@ describe('getCharacter', () => {
     let characterNames = makeCharacterArray()
     expect(characterNames).toEqual(expect.arrayContaining([chosenName]))
   })
+  test("should return randomly selected character from character list when 'random' is entered into the array", () => {
+    let chosenName = getCharacter(['random']).name
+    let characterNames = makeCharacterArray()
+    expect(characterNames).toEqual(expect.arrayContaining([chosenName]))
+  })
 })

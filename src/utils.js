@@ -1,8 +1,10 @@
 import { characters } from './characters'
 
 export const getCharacter = userSelectedCharacters => {
-  let random = userSelectedCharacters === 'random'
-  if (random) {
+  let randomString = userSelectedCharacters === 'random'
+  let randomArray = userSelectedCharacters[0] === 'random'
+  let random = randomString || randomArray
+  if (random){
     userSelectedCharacters = makeCharacterArray()
   }
   let chosenCharacter = ''
