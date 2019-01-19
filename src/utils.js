@@ -1,14 +1,11 @@
 import { characters } from './characters'
 
 export const getCharacter = userSelectedCharacters => {
-  let randomString = userSelectedCharacters === 'random'
-  let randomArray = userSelectedCharacters[0] === 'random'
-  let random = randomString || randomArray
-  if (random){
-    userSelectedCharacters = makeCharacterArray()
-  }
   let chosenCharacter = ''
   let defaultCharacter = 'x-23'
+  // Create character array if 'random' is selected
+  userSelectedCharacters = determineRandom(userSelectedCharacters)
+
   let isArray = Array.isArray(userSelectedCharacters)
   let hasUserSelectedCharacters = userSelectedCharacters.length > 0
   let noValueInArrayPositionOne = !userSelectedCharacters[0]
@@ -23,6 +20,16 @@ export const getCharacter = userSelectedCharacters => {
   }
   let returnedCharacter = matchCharacter(chosenCharacter)
   return returnedCharacter
+}
+
+const determineRandom = selection => {
+  let randomString = selection === 'random'
+  let randomArray = selection[0] === 'random'
+  let random = randomString || randomArray
+  if (random) {
+    selection = makeCharacterArray()
+  }
+  return selection
 }
 
 const matchCharacter = chosenCharacterName => {
