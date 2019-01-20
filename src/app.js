@@ -2,11 +2,11 @@
 import color from 'color'
 import path from 'path'
 
-import { getCharacter } from './utils'
+import { getUserOptions } from './getUserOptions'
 
 exports.decorateConfig = config => {
-  const characterNames = ['invisible-woman', 'wasp', 'x-23', 'mystique', 'phoenix']
-  const character = getCharacter(characterNames)
+  const options = getUserOptions(config)
+  const character = options.character
   const colors = character.colors
   const primary = colors.backgroundColor
   const header = colors.header
