@@ -42,14 +42,14 @@ describe('getCharacter', () => {
     let characterNames = makeCharacterArray()
     expect(characterNames).toEqual(expect.arrayContaining([chosenName]))
   })
-  test("should return random character from heroes list when 'hero' is entered", () => {
-    let chosenName = getCharacter('hero').name
-    let characterNames = makeCharacterArray('hero')
+  test("should return random character from heroes list when 'heroes' is entered", () => {
+    let chosenName = getCharacter('heroes').name
+    let characterNames = makeCharacterArray('heroes')
     expect(characterNames).toEqual(expect.arrayContaining([chosenName]))
   })
-  test("should return random character from villians list when 'villian' is entered", () => {
-    let chosenName = getCharacter('villian').name
-    let characterNames = makeCharacterArray('villian')
+  test("should return random character from villians list when 'villians' is entered", () => {
+    let chosenName = getCharacter('villians').name
+    let characterNames = makeCharacterArray('villians')
     expect(characterNames).toEqual(expect.arrayContaining([chosenName]))
   })
 })

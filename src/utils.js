@@ -38,13 +38,13 @@ const determineSide = userSelectedCharacters => {
   let returnedCharacters = userSelectedCharacters
   let side = []
   // heroes
-  let heroesString = userSelectedCharacters === 'hero'
-  let heroesArray = userSelectedCharacters[0] === 'hero'
-  let heroes = heroesString || heroesArray ? 'hero' : ''
+  let heroesString = userSelectedCharacters === 'heroes'
+  let heroesArray = userSelectedCharacters[0] === 'heroes'
+  let heroes = heroesString || heroesArray ? 'heroes' : ''
   // villians
-  let villiansString = userSelectedCharacters === 'villian'
-  let villiansArray = userSelectedCharacters[0] === 'villian'
-  let villians = villiansString || villiansArray ? 'villian' : ''
+  let villiansString = userSelectedCharacters === 'villians'
+  let villiansArray = userSelectedCharacters[0] === 'villians'
+  let villians = villiansString || villiansArray ? 'villians' : ''
 
   let chosenSide = heroes || villians
   if (chosenSide) {
