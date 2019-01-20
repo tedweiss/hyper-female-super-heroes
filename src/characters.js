@@ -1,7 +1,7 @@
 export const characters = [
   {
     name: 'invisible-woman',
-    side: 'hero',
+    side: 'heroes',
     colors: {
       backgroundColor: '#d1516d',
       header: '#333f42',
@@ -29,7 +29,7 @@ export const characters = [
   },
   {
     name: 'wasp',
-    side: 'hero',
+    side: 'heroes',
     colors: {
       backgroundColor: '#c6bb54',
       header: '#333f42',
@@ -57,7 +57,7 @@ export const characters = [
   },
   {
     name: 'x-23',
-    side: 'hero',
+    side: 'heroes',
     colors: {
       backgroundColor: '#7d929d',
       header: '#333f42',
@@ -85,7 +85,7 @@ export const characters = [
   },
   {
     name: 'mystique',
-    side: 'villian',
+    side: 'villians',
     colors: {
       backgroundColor: '#a1ada7',
       header: '#333f42',
@@ -113,7 +113,7 @@ export const characters = [
   },
   {
     name: 'phoenix',
-    side: 'villian',
+    side: 'villians',
     colors: {
       backgroundColor: '#f8d082',
       header: '#333f42',
