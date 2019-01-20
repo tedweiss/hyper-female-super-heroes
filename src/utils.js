@@ -5,6 +5,8 @@ export const getCharacter = userSelectedCharacters => {
   let defaultCharacter = 'x-23'
   // Create character array if 'random' is selected
   userSelectedCharacters = determineRandom(userSelectedCharacters)
+  // Create character array if a side is selected
+  userSelectedCharacters = determineSide(userSelectedCharacters)
 
   let isArray = Array.isArray(userSelectedCharacters)
   let hasUserSelectedCharacters = userSelectedCharacters.length > 0
@@ -32,6 +34,32 @@ const determineRandom = selection => {
   return selection
 }
 
+const determineSide = userSelectedCharacters => {
+  let returnedCharacters = userSelectedCharacters
+  let side = []
+  // heroes
+  let heroesString = userSelectedCharacters === 'hero'
+  let heroesArray = userSelectedCharacters[0] === 'hero'
+  let heroes = heroesString || heroesArray ? 'hero' : ''
+  // villians
+  let villiansString = userSelectedCharacters === 'villian'
+  let villiansArray = userSelectedCharacters[0] === 'villian'
+  let villians = villiansString || villiansArray ? 'villian' : ''
+
+  let chosenSide = heroes || villians
+  if (chosenSide) {
+    for (var i = 0; i < characters.length; i++) {
+      let character = characters[i]
+      let characterSide = character.side
+      if (chosenSide === characterSide) {
+        side.push(character.name)
+      }
+    }
+    returnedCharacters = side
+  }
+  return returnedCharacters
+}
+
 const matchCharacter = chosenCharacterName => {
   for (var i = 0; i < characters.length; i++) {
     let character = characters[i]
@@ -42,12 +70,19 @@ const matchCharacter = chosenCharacterName => {
   }
 }
 
-export const makeCharacterArray = () => {
+export const makeCharacterArray = side => {
   let characterNames = []
   for (var i = 0; i < characters.length; i++) {
     let character = characters[i]
     let characterName = character.name
-    characterNames.push(characterName)
+    if (side) {
+      let characterSide = character.side
+      if (side === characterSide) {
+        characterNames.push(characterName)
+      }
+    } else {
+      characterNames.push(characterName)
+    }
   }
   return characterNames
 }
