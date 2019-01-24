@@ -36,7 +36,7 @@
   "scripts": {
     "dev": "webpack --mode development ./src/app.js --output ./index.js",
     "pro": "webpack --mode production ./src/app.js --output ./index.js",
-    "test": "jest --watchAll"
+    "test": "jest --watch -o"
   },
   "standard": {
     "parser": "babel-eslint",
