@@ -3,7 +3,8 @@ export const getAvatar = avatarOption => {
   let notFalseBool = avatarOption !== false
   let notFalseString = avatarOption !== 'false'
   let notFalseArray = avatarOption[0] !== 'false'
-  let wantedAvatar = notFalseBool && notFalseString && notFalseArray
+  let notFalseArrayBool = avatarOption[0] !== false
+  let wantedAvatar = notFalseBool && notFalseString && notFalseArray && notFalseArrayBool
   if (wantedAvatar) {
     displayAvatar = true
   }
