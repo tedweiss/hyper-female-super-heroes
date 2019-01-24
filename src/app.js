@@ -7,6 +7,7 @@ import { getUserOptions } from './getUserOptions'
 exports.decorateConfig = config => {
   const options = getUserOptions(config)
   const character = options.character
+  const avatar = options.avatar
   const colors = character.colors
   const primary = colors.backgroundColor
   const header = colors.header
@@ -36,7 +37,7 @@ exports.decorateConfig = config => {
         background-color: ${primary};
       }
       .terms_terms {
-        background: ${backgroundContent};
+        background: ${avatar ? backgroundContent : ''};
       }
       .header_shape, .header_appTitle {
         color: ${header};
