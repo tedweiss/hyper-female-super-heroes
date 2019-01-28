@@ -3,10 +3,10 @@ export const characters = [
     name: 'invisible-woman',
     side: 'heroes',
     colors: {
-      backgroundColor: '#d1516d',
-      header: '#333f42',
-      tabs: '#1e5599',
-      activeTabBottomColor: '#f2ead1'
+      backgroundColor: '#D1516D',
+      header: '#333F42',
+      tabs: '#1E5599',
+      activeTabBottomColor: '#F2EAD1'
     },
     terminalTextColors: {
       black: '#000000',
@@ -31,10 +31,10 @@ export const characters = [
     name: 'wasp',
     side: 'heroes',
     colors: {
-      backgroundColor: '#c6bb54',
-      header: '#333f42',
+      backgroundColor: '#C6BB54',
+      header: '#333F42',
       tabs: '#817537',
-      activeTabBottomColor: '#42b9df'
+      activeTabBottomColor: '#42B9DF'
     },
     terminalTextColors: {
       black: '#000000',
@@ -59,10 +59,10 @@ export const characters = [
     name: 'x-23',
     side: 'heroes',
     colors: {
-      backgroundColor: '#7d929d',
-      header: '#333f42',
-      tabs: '#38464e',
-      activeTabBottomColor: '#9b8463'
+      backgroundColor: '#7D929D',
+      header: '#333F42',
+      tabs: '#38464E',
+      activeTabBottomColor: '#9B8463'
     },
     terminalTextColors: {
       black: '#000000',
@@ -87,10 +87,10 @@ export const characters = [
     name: 'mystique',
     side: 'villians',
     colors: {
-      backgroundColor: '#a1ada7',
-      header: '#333f42',
-      tabs: '#125c9d',
-      activeTabBottomColor: '#6c221c'
+      backgroundColor: '#A1ADA7',
+      header: '#333F42',
+      tabs: '#125C9D',
+      activeTabBottomColor: '#6C221C'
     },
     terminalTextColors: {
       black: '#000000',
@@ -115,10 +115,10 @@ export const characters = [
     name: 'phoenix',
     side: 'villians',
     colors: {
-      backgroundColor: '#f8d082',
-      header: '#333f42',
-      tabs: '#7c3129',
-      activeTabBottomColor: '#ed9646'
+      backgroundColor: '#F8D082',
+      header: '#333F42',
+      tabs: '#7C3129',
+      activeTabBottomColor: '#ED9646'
     },
     terminalTextColors: {
       black: '#000000',
