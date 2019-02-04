@@ -28,6 +28,9 @@ exports.decorateConfig = config => {
   const scheme = {
     backgroundColor: schemeBackgroundColor,
     foregroundColor: terminalTextColors.white,
+    selectionColor: color(header)
+      .alpha(0.3)
+      .string(),
     borderColor: schemeBorderColor,
     cursorColor: schemeCursorColor,
     colors: terminalTextColors
