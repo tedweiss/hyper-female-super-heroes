@@ -47,7 +47,7 @@ export const characters = [
       white: '#FFFFFF',
       lightBlack: '#000000',
       lightRed: '#E83735',
-      lightGreen: '#689F38',
+      lightGreen: '#588730',
       lightYellow: '#FFFE84',
       lightBlue: '#4657E8',
       lightMagenta: '#C13FE8',
