@@ -1,5 +1,5 @@
 import { characters } from '../src/characters'
-import { getCharacter, makeCharacterArray } from '../src/utils'
+import { getCharacter, makeCharacterArray } from '../src/getCharacter'
 
 describe('getCharacter', () => {
   test('should return user selected character if only one is input into the array', () => {

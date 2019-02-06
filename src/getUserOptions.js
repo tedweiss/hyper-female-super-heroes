@@ -1,4 +1,4 @@
-import { getCharacter } from './utils'
+import { getCharacter } from './getCharacter'
 import { getAvatar } from './getAvatar'
 
 export const getUserOptions = ({ FemaleSuperHeroes: config = {} }) => {
