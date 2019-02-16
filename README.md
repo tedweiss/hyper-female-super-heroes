@@ -57,3 +57,25 @@ config: {
   //...
 }
 ```
+
+## Options
+
+### `character`
+
+Using this option you can choose your Female Super Heroes character theme along with it's tailor-made syntax color.
+
+The assignable values are:
+
+- `character name` - choose any of the available Female Super Heroes characters by defining their name.<br/><br/>**i.e.** `character: 'x-23'`, `character: 'wasp'`, `character: 'mystique'` **etc**<br/><br/>
+
+- `random` - randomly selects a Female Super Heroes character theme from **all available characters**, each time you fire up a new Hyper terminal session.<br/><br/>
+**i.e.** `character: 'random'`<br/><br/>
+
+- `heroes/villians side` - randomly selects a Female Super Heroes character theme from the **heroes side** or the **villians side**, each time you fire up a new Hyper terminal session.<br/><br/>
+**i.e.** `character: 'heroes'`, `character: 'villians'`<br/><br/>
+
+- `character array` - randomly selects a Female Super Heroes character theme/theme option from a **defined array** holding **custom multiple themes/theme options**, each time you fire up a new Hyper terminal session. Any from the available Female Super Heroes character **themes** can be chosen!<br/><br/>
+**i.e.**
+	- `character: ['x-23', 'heroes', 'villians', 'phoenix']`
+	- `character: ['invisible-woman', 'wasp', 'x-23', 'mystique']`
+	- `character: ['phoenix', 'wasp', 'random', 'mystique', 'invisible-woman']` **etc**<br/><br/>
