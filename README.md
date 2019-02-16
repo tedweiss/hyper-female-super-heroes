@@ -35,3 +35,25 @@ Add `hyper-female-super-heroes` to the plugins list in your `~/.hyper.js` config
 ```js
 plugins: ['hyper-female-super-heroes']
 ```
+
+## Usage
+
+Once you have installed `hyper-female-super-heroes`, it's time to set your favorite theme.
+
+Go to your `~/.hyper.js` and add the `FemaleSuperHeroes` settings object below the `colors` object, and define there your theme of choice.
+
+Here is a quick example, where we choose the `x-23` theme displaying the avatar.
+
+```js
+config: {
+  //...
+  colors: {
+    //...
+  },
+  FemaleSuperHeroes: {
+    character: 'x-23', // Define your favorite female super hero or villian
+    avatar: true  // Activate your theme's background avatar
+  },
+  //...
+}
+```
