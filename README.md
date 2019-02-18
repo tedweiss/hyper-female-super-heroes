@@ -79,3 +79,22 @@ The assignable values are:
 	- `character: ['x-23', 'heroes', 'villians', 'phoenix']`
 	- `character: ['invisible-woman', 'wasp', 'x-23', 'mystique']`
 	- `character: ['phoenix', 'wasp', 'random', 'mystique', 'invisible-woman']` **etc**<br/><br/>
+
+### `avatar`
+
+Choose whether or not you want the Female Super Heroes character theme `avatar` to be displayed in the background.
+
+The assignable values are:
+
+- `avatar: 'true'` - enable your theme's background `avatar`
+- `avatar: 'false'` - disable your theme's background `avatar`
+
+In addition, completely omitting the `avatar` option from your `.hyper.js` will have the same effect as defining it and setting it to `true`. (**Default value**)
+
+<div align="center" style="display: flex; padding-top: 10px;">
+  <a href="https://github.com/tedweiss/hyper-female-super-heroes">
+    <img src="src/images/screen-shots/screen-shot-avatar-true.png" alt="Screen Shot Avatar True" width="80%"></a>
+  <a href="https://github.com/tedweiss/hyper-female-super-heroes">
+    <img src="src/images/screen-shots/screen-shot-avatar-false.png" alt="Screen Shot Avatar False" width="80%">
+  </a>
+</div>
