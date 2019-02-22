@@ -91,11 +91,11 @@ The assignable values are:
 
 In addition, completely omitting the `avatar` option from your `.hyper.js` will have the same effect as defining it and setting it to `true`. (**Default value**)
 
-<div align="center" style="display: flex; padding-top: 10px;">
-  <a href="https://github.com/tedweiss/hyper-female-super-heroes">
-    <img src="src/images/screen-shots/screen-shot-avatar-true.png" alt="Screen Shot Avatar True" width="80%"></a>
-  <a href="https://github.com/tedweiss/hyper-female-super-heroes">
-    <img src="src/images/screen-shots/screen-shot-avatar-false.png" alt="Screen Shot Avatar False" width="80%">
+<div align="center" style= padding-top: 10px;">
+  <a href="https://github.com/tedweiss/hyper-female-super-heroes" style="display:inline-block;width:40%;">
+    <img src="src/images/screen-shots/screen-shot-avatar-true.png" alt="Screen Shot Avatar True"></a>
+  <a href="https://github.com/tedweiss/hyper-female-super-heroes"style="display:inline-block;width:40%;margin-left:10%">
+    <img src="src/images/screen-shots/screen-shot-avatar-false.png" alt="Screen Shot Avatar False">
   </a>
 </div>
 
@@ -117,28 +117,28 @@ In addition, completely omitting the `avatar` option from your `.hyper.js` will 
 </details>
 <br/>
 <section>
-<style>
-  .character {
-    text-align: center;
-    padding: 25px 0;
-  }
-  .character-name {
-    display: inline-block; 
-    width: 39%;
-    text-align: center;
-    font-size: 20px; 
-    font-weight: normal;
-    vertical-align: top;
-  }
-  .character-name-inner {
-    margin-top: 70px;
-    display: inline-block;
-  }
-  .character-image {
-    display: inline-block;
-    width: 60%;
-  }
-</style>
+  <style>
+    .character {
+      text-align: center;
+      padding: 25px 0;
+    }
+    .character-name {
+      display: inline-block; 
+      width: 39%;
+      text-align: center;
+      font-size: 20px; 
+      font-weight: normal;
+      vertical-align: top;
+    }
+    .character-name-inner {
+      margin-top: 50px;
+      display: inline-block;
+    }
+    .character-image {
+      display: inline-block;
+      width: 60%;
+    }
+  </style>
   <div class="character">
     <h4 class="character-name"><span class="character-name-inner">Invisible Woman</span></h4>
     <img class="character-image" src="src/images/screen-shots/screen-shot-invisible-woman.png" alt="Invisible Woman">
