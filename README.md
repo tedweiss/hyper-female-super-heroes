@@ -93,9 +93,9 @@ In addition, completely omitting the `avatar` option from your `.hyper.js` will 
 
 <div align="center" style= padding-top: 10px;">
   <a href="https://github.com/tedweiss/hyper-female-super-heroes">
-    <img src="src/images/screen-shots/screen-shot-avatar-true.png" alt="Screen Shot Avatar True"  style="display:inline-block;width:40%;"></a>
+    <img src="src/images/screen-shots/screen-shot-avatar-true-2.png" alt="Screen Shot Avatar True"  style="display:inline-block;width:40%;"></a>
   <a href="https://github.com/tedweiss/hyper-female-super-heroes">
-    <img src="src/images/screen-shots/screen-shot-avatar-false.png" alt="Screen Shot Avatar False" style="display:inline-block;width:40%;margin-left:10%">
+    <img src="src/images/screen-shots/screen-shot-avatar-false-2.png" alt="Screen Shot Avatar False" style="display:inline-block;width:40%;margin-left:10%">
   </a>
 </div>
 
