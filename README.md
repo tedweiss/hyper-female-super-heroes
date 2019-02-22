@@ -92,10 +92,10 @@ The assignable values are:
 In addition, completely omitting the `avatar` option from your `.hyper.js` will have the same effect as defining it and setting it to `true`. (**Default value**)
 
 <div align="center" style= padding-top: 10px;">
-  <a href="https://github.com/tedweiss/hyper-female-super-heroes" style="display:inline-block;width:40%;">
-    <img src="src/images/screen-shots/screen-shot-avatar-true.png" alt="Screen Shot Avatar True"></a>
-  <a href="https://github.com/tedweiss/hyper-female-super-heroes"style="display:inline-block;width:40%;margin-left:10%">
-    <img src="src/images/screen-shots/screen-shot-avatar-false.png" alt="Screen Shot Avatar False">
+  <a href="https://github.com/tedweiss/hyper-female-super-heroes">
+    <img src="src/images/screen-shots/screen-shot-avatar-true.png" alt="Screen Shot Avatar True"  style="display:inline-block;width:40%;"></a>
+  <a href="https://github.com/tedweiss/hyper-female-super-heroes">
+    <img src="src/images/screen-shots/screen-shot-avatar-false.png" alt="Screen Shot Avatar False" style="display:inline-block;width:40%;margin-left:10%">
   </a>
 </div>
 
