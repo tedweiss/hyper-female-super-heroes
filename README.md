@@ -15,6 +15,15 @@
 </div>
 <br />
 
+## Contents
+
+- [Install](#install)
+- [Usage](#usage)
+- [Options](#options)
+- [Available Themes](#available-themes)
+- [Team](#team)
+- [License](#license)
+
 ## Install
 
 ### Using the plugin manager - `hyper`
@@ -134,11 +143,11 @@ In addition, completely omitting the `avatar` option from your `.hyper.js` will 
   <img class="character-image" src="src/images/screen-shots/screen-shot-x-23.png" alt="X-23" width="50%">
 </div>
 
-## License
-
-This project is licensed under the MIT License - see the [LICENSE](https://github.com/tedweiss/hyper-female-super-heroes/blob/master/LICENSE) file for details.
-
 ## Team
 
 * Code by Ted Weiss [(@tedweiss)](https://github.com/tedweiss)  
 * Design by Hilary Wilson [(@hwilson2563)](https://github.com/hwilson2563)
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](https://github.com/tedweiss/hyper-female-super-heroes/blob/master/LICENSE) file for details.
