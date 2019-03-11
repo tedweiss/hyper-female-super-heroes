@@ -137,3 +137,8 @@ In addition, completely omitting the `avatar` option from your `.hyper.js` will 
 ## License
 
 This project is licensed under the MIT License - see the [LICENSE](https://github.com/tedweiss/hyper-female-super-heroes/blob/master/LICENSE) file for details.
+
+## Team
+
+* Code by Ted Weiss [(@tedweiss)](https://github.com/tedweiss)  
+* Design by Hilary Wilson [(@hwilson2563)](https://github.com/hwilson2563)
