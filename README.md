@@ -10,7 +10,7 @@
 
 <div align="center">
   <a href="https://github.com/tedweiss/hyper-female-super-heroes">
-    <img src="src/images/screen-shots/screen-shot-x-23-intro.png" alt="Screen Shot Hyper X-23" width="80%">
+    <img src="src/images/screen-shots/screen-shot-x-23-intro-2.png" alt="Screen Shot Hyper X-23" width="80%">
   </a>
 </div>
 <br />
