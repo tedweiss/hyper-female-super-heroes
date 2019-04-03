@@ -4,7 +4,6 @@ export const characters = [
     side: 'heroes',
     colors: {
       backgroundColor: '#D1516D',
-      header: '#333F42',
       tabs: '#1E5599',
       activeTabBottomColor: '#F2EAD1'
     },
@@ -32,7 +31,6 @@ export const characters = [
     side: 'heroes',
     colors: {
       backgroundColor: '#C6BB54',
-      header: '#333F42',
       tabs: '#817537',
       activeTabBottomColor: '#42B9DF'
     },
@@ -60,7 +58,6 @@ export const characters = [
     side: 'heroes',
     colors: {
       backgroundColor: '#7D929D',
-      header: '#333F42',
       tabs: '#38464E',
       activeTabBottomColor: '#9B8463'
     },
@@ -88,7 +85,6 @@ export const characters = [
     side: 'villians',
     colors: {
       backgroundColor: '#A1ADA7',
-      header: '#333F42',
       tabs: '#125C9D',
       activeTabBottomColor: '#6C221C'
     },
@@ -116,7 +112,6 @@ export const characters = [
     side: 'villians',
     colors: {
       backgroundColor: '#F8D082',
-      header: '#333F42',
       tabs: '#7C3129',
       activeTabBottomColor: '#ED9646'
     },
