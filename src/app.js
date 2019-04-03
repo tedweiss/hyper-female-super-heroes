@@ -10,7 +10,7 @@ exports.decorateConfig = config => {
   const avatar = options.avatar
   const colors = character.colors
   const primary = colors.backgroundColor
-  const header = colors.header
+  const header = '#333F42'
   const fontColor = primary
   const tab = color(header).lighten(0.3)
   const activeTab = colors.tabs
