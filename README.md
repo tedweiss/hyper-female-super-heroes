@@ -117,8 +117,10 @@ In addition, completely omitting the `avatar` option from your `.hyper.js` will 
 <br/>
 
 * `invisible-woman`
+* `ms-marvel`
 * `mystique`
 * `phoenix`
+* `posion-ivy`
 * `wasp`
 * `x-23`
 
@@ -130,8 +132,14 @@ In addition, completely omitting the `avatar` option from your `.hyper.js` will 
   <h3>Invisible Woman</h3>
   <img class="character-image" src="src/images/screen-shots/screen-shot-invisible-woman.png" alt="Invisible Woman" width="50%">
 
+  <h3>Ms. Marvel</h3>
+  <img class="character-image" src="src/images/screen-shots/screen-shot-ms-marvel.png" alt="Ms. Marvel" width="50%">
+
   <h3>Mystique</h3>
   <img class="character-image" src="src/images/screen-shots/screen-shot-mystique.png" alt="Mystique" width="50%">
+
+  <h3>Posion Ivy</h3>
+  <img class="character-image" src="src/images/screen-shots/screen-shot-posion-ivy.png" alt="Posion Ivy" width="50%">
 
   <h3>Phoenix</h3>
   <img class="character-image" src="src/images/screen-shots/screen-shot-phoenix.png" alt="Phoenix" width="50%">
