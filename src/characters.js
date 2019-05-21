@@ -27,6 +27,33 @@ export const characters = [
     }
   },
   {
+    name: 'ms-marvel',
+    side: 'heroes',
+    colors: {
+      backgroundColor: '#A58A49',
+      tabs: '#2778AB',
+      activeTabBottomColor: '#A9443D',
+    },
+    terminalTextColors: {
+      black: '#000000',
+      red: '#FA0101',
+      green: '#00651D',
+      yellow: '#FAD209',
+      blue: '#004AFF',
+      magenta: '#AE07E8',
+      cyan: '#0078E8',
+      white: '#FFFFFF',
+      lightBlack: '#000000',
+      lightRed: '#FA2A0F',
+      lightGreen: '#006D1D',
+      lightYellow: '#FAE935',
+      lightBlue: '#1A5CFF',
+      lightMagenta: '#AE47E8',
+      lightCyan: '#4CADEB',
+      lightWhite: '#FFFFFF'
+    }
+  },
+  {
     name: 'wasp',
     side: 'heroes',
     colors: {
@@ -132,6 +159,33 @@ export const characters = [
       lightMagenta: '#C13FE8',
       lightCyan: '#3193E8',
       lightWhite: '#696969'
+    }
+  },
+  {
+    name: 'poison-ivy',
+    side: 'villians',
+    colors: {
+      backgroundColor: '#E29C9C',
+      tabs: '#B62A2F',
+      activeTabBottomColor: '#98C687'
+    },
+    terminalTextColors: {
+      black: '#000000',
+      red: '#E8110E', 
+      green: '#11792F',
+      yellow: '#FFE603',
+      blue: '#480DFF',
+      magenta: '#9E006E',
+      cyan: '#00888F',
+      white: '#FFFFFF',
+      lightBlack: '#000000',
+      lightRed: '#F03A30',
+      lightGreen: '#1F904D',
+      lightYellow: '#FFFC36',
+      lightBlue: '#4657E8',
+      lightMagenta: '#E650EB',
+      lightCyan: '#298AEB',
+      lightWhite: '#FFFFFF'
     }
   }
 ]
