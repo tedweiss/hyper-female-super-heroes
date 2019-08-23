@@ -1,32 +1,5 @@
 export const characters = [
   {
-    name: 'catwoman',
-    side: 'villians',
-    colors: {
-      backgroundColor: '#63768D',
-      tabs: '#554971',
-      activeTabBottomColor: '#B8F3FF'
-    },
-    terminalTextColors: {
-      black: '#000000',
-      red: '#E8110E',
-      green: '#05bbaa',
-      yellow: '#E5D30F',
-      blue: '#480DFF',
-      magenta: '#AE07E8',
-      cyan: '#00eaff',
-      white: '#FFFFFF',
-      lightBlack: '#000000',
-      lightRed: '#E83735',
-      lightGreen: '#CCFF00',
-      lightYellow: '#FFF962',
-      lightBlue: '#00eaff',
-      lightMagenta: '#C13FE8',
-      lightCyan: '#B8F3FF',
-      lightWhite: '#FFFFFF'
-    }
-  },
-  {
     name: 'invisible-woman',
     side: 'heroes',
     colors: {
@@ -131,6 +104,60 @@ export const characters = [
       lightBlue: '#0C33FF',
       lightMagenta: '#E10EFF',
       lightCyan: '#08F0FF',
+      lightWhite: '#FFFFFF'
+    }
+  },
+  {
+    name: 'catwoman',
+    side: 'villians',
+    colors: {
+      backgroundColor: '#63768D',
+      tabs: '#554971',
+      activeTabBottomColor: '#B8F3FF'
+    },
+    terminalTextColors: {
+      black: '#000000',
+      red: '#E8110E',
+      green: '#05bbaa',
+      yellow: '#E5D30F',
+      blue: '#480DFF',
+      magenta: '#AE07E8',
+      cyan: '#00eaff',
+      white: '#FFFFFF',
+      lightBlack: '#000000',
+      lightRed: '#E83735',
+      lightGreen: '#CCFF00',
+      lightYellow: '#FFF962',
+      lightBlue: '#00eaff',
+      lightMagenta: '#C13FE8',
+      lightCyan: '#B8F3FF',
+      lightWhite: '#FFFFFF'
+    }
+  },
+  {
+    name: 'harley-quinn',
+    side: 'villians',
+    colors: {
+      backgroundColor: '#A7898C',
+      tabs: '#8C5050',
+      activeTabBottomColor: '#D1AF42'
+    },
+    terminalTextColors: {
+      black: '#000000',
+      red: '#E8110E',
+      green: '#52DD76',
+      yellow: '#D1AF42',
+      blue: '#121156',
+      magenta: '#9E006E',
+      cyan: '#00888F',
+      white: '#FFFFFF',
+      lightBlack: '#000000',
+      lightRed: '#F03A30',
+      lightGreen: '#B2EDC1',
+      lightYellow: '#FFFC36',
+      lightBlue: '#1D2FD6',
+      lightMagenta: '#E650EB',
+      lightCyan: '#3AA9DB',
       lightWhite: '#FFFFFF'
     }
   },
