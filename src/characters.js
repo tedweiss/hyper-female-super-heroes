@@ -84,9 +84,9 @@ export const characters = [
     name: 'wonder-woman',
     side: 'heroes',
     colors: {
-      backgroundColor: '#D2F5F9',
+      backgroundColor: '#6B8D8D',
       tabs: '#2288A0',
-      activeTabBottomColor: '#EABFBB'
+      activeTabBottomColor: '#ED0C05'
     },
     terminalTextColors: {
       black: '#000000',
@@ -106,7 +106,7 @@ export const characters = [
       lightCyan: '#08F0FF',
       lightWhite: '#FFFFFF'
     }
-  }
+  },
   {
     name: 'x-23',
     side: 'heroes',
