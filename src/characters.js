@@ -85,7 +85,7 @@ export const characters = [
     side: 'heroes',
     colors: {
       backgroundColor: '#6B8D8D',
-      tabs: '#2288A0',
+      tabs: '#F0F7F7',
       activeTabBottomColor: '#ED0C05'
     },
     terminalTextColors: {
