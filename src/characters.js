@@ -81,6 +81,33 @@ export const characters = [
     }
   },
   {
+    name: 'wonder-woman',
+    side: 'heroes',
+    colors: {
+      backgroundColor: '#D2F5F9',
+      tabs: '#2288A0',
+      activeTabBottomColor: '#EABFBB'
+    },
+    terminalTextColors: {
+      black: '#000000',
+      red: '#FAA5BA',
+      green: '#34E60F',
+      yellow: '#E5D30F',
+      blue: '#0A29CC',
+      magenta: '#C3A3FA',
+      cyan: '#07CCD9',
+      white: '#FFFFFF',
+      lightBlack: '#000000',
+      lightRed: '#FFB5BE',
+      lightGreen: '#3AFF11',
+      lightYellow: '#FFEB10',
+      lightBlue: '#0C33FF',
+      lightMagenta: '#CDBCFF',
+      lightCyan: '#08F0FF',
+      lightWhite: '#FFFFFF'
+    }
+  }
+  {
     name: 'x-23',
     side: 'heroes',
     colors: {
