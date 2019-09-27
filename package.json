@@ -12,6 +12,7 @@
   ],
   "description": "female super heroes theme for hyper",
   "dependencies": {
+    "acorn": "^6.0.0",
     "color": "^3.0.0"
   },
   "devDependencies": {
