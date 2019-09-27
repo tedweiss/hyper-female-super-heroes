@@ -10,7 +10,7 @@
 
 <div align="center">
   <a href="https://github.com/tedweiss/hyper-female-super-heroes">
-    <img src="src/images/screen-shots/screen-shot-x-23-intro-2.png" alt="Screen Shot Hyper X-23" width="80%">
+    <img src="src/images/screen-shots/screen-shot-wonder-woman-intro.png" alt="Screen Shot Hyper Wonder Woman" width="80%">
   </a>
 </div>
 <br />
@@ -116,12 +116,15 @@ In addition, completely omitting the `avatar` option from your `.hyper.js` will 
 
 <br/>
 
+* `catwoman`
+* `harley-quinn`
 * `invisible-woman`
 * `ms-marvel`
 * `mystique`
 * `phoenix`
 * `posion-ivy`
 * `wasp`
+* `wonder-woman`
 * `x-23`
 
 <br/>
@@ -129,6 +132,12 @@ In addition, completely omitting the `avatar` option from your `.hyper.js` will 
 </details>
 <br/>
 <div align="center">
+  <h3>Catwoman</h3>
+  <img class="character-image" src="src/images/screen-shots/screen-shot-catwoman.png" alt="Catwoman" width="50%">
+
+  <h3>Harley Quinn</h3>
+  <img class="character-image" src="src/images/screen-shots/screen-shot-harley-quinn.png" alt="Harley Quinn" width="50%">
+
   <h3>Invisible Woman</h3>
   <img class="character-image" src="src/images/screen-shots/screen-shot-invisible-woman.png" alt="Invisible Woman" width="50%">
 
@@ -146,6 +155,9 @@ In addition, completely omitting the `avatar` option from your `.hyper.js` will 
  
   <h3>Wasp</h3>
   <img class="character-image" src="src/images/screen-shots/screen-shot-wasp.png" alt="Wasp" width="50%">
+ 
+  <h3>Wonder Woman</h3>
+  <img class="character-image" src="src/images/screen-shots/screen-shot-wonder-woman.png" alt="Wonder Woman" width="50%">
 
   <h3>X-23</h3>
   <img class="character-image" src="src/images/screen-shots/screen-shot-x-23.png" alt="X-23" width="50%">
