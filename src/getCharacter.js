@@ -2,7 +2,7 @@ import { characters } from './characters'
 
 export const getCharacter = userSelectedCharacters => {
   let chosenCharacter = ''
-  let defaultCharacter = 'x-23'
+  let defaultCharacter = 'wonder-woman'
   // Create character array if 'random' is selected
   userSelectedCharacters = determineRandom(userSelectedCharacters)
   // Create character array if a side is selected
