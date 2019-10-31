@@ -146,7 +146,7 @@ In addition, completely omitting the `avatar` option from your `.hyper.js` will 
 ## Team
 
 * Code by Ted Weiss [(@tedweiss)](https://github.com/tedweiss)  
-* Design by Hilary Wilson [(@hwilson2563)](https://github.com/hwilson2563)
+* Design by Hilary Matusiak [(@hwilson2563)](https://github.com/hwilson2563)
 
 ## License
 
