@@ -251,7 +251,7 @@ export const characters = [
       activeTabBottomColor: '#e0a6d8'
     },
     terminalTextColors: {
-      black: '#000000',
+      black: '#696969',
       red: '#e0174c',
       green: '#17e068',
       yellow: '#d6e017',
@@ -259,7 +259,7 @@ export const characters = [
       magenta: '#9E006E',
       cyan: '#17e0d1',
       white: '#FFFFFF',
-      lightBlack: '#000000',
+      lightBlack: '#696969',
       lightRed: '#f297f2',
       lightGreen: '#B2EDC1',
       lightYellow: '#d6e017',
