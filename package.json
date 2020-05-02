@@ -30,9 +30,9 @@
     "regenerator-runtime": "^0.13.1",
     "standard": "^12.0.1",
     "style-loader": "^0.23.1",
-    "webpack": "^4.28.3",
-    "webpack-cli": "^3.1.2",
-    "webpack-dev-server": "^3.1.14"
+    "webpack": "^4.43.0",
+    "webpack-cli": "^3.3.11",
+    "webpack-dev-server": "^3.10.3"
   },
   "scripts": {
     "dev": "webpack --mode development ./src/app.js --output ./index.js",
