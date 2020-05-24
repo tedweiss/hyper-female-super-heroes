@@ -1,6 +1,7 @@
 export const characters = [
   {
     name: 'invisible-woman',
+    displayName: 'Invisible Woman',
     side: 'heroes',
     colors: {
       backgroundColor: '#D1516D',
@@ -28,11 +29,12 @@ export const characters = [
   },
   {
     name: 'ms-marvel',
+    displayName: 'Ms. Marvel',
     side: 'heroes',
     colors: {
       backgroundColor: '#A58A49',
       tabs: '#2778AB',
-      activeTabBottomColor: '#A9443D',
+      activeTabBottomColor: '#A9443D'
     },
     terminalTextColors: {
       black: '#000000',
@@ -55,6 +57,7 @@ export const characters = [
   },
   {
     name: 'wasp',
+    displayName: 'Wasp',
     side: 'heroes',
     colors: {
       backgroundColor: '#C6BB54',
@@ -82,6 +85,7 @@ export const characters = [
   },
   {
     name: 'wonder-woman',
+    displayName: 'Wonder Woman',
     side: 'heroes',
     colors: {
       backgroundColor: '#6B8D8D',
@@ -109,6 +113,7 @@ export const characters = [
   },
   {
     name: 'x-23',
+    displayName: 'X-23',
     side: 'heroes',
     colors: {
       backgroundColor: '#7D929D',
@@ -136,6 +141,7 @@ export const characters = [
   },
   {
     name: 'catwoman',
+    displayName: 'Catwoman',
     side: 'villians',
     colors: {
       backgroundColor: '#63768D',
@@ -163,6 +169,7 @@ export const characters = [
   },
   {
     name: 'harley-quinn',
+    displayName: 'Harley Quinn',
     side: 'villians',
     colors: {
       backgroundColor: '#A7898C',
@@ -190,6 +197,7 @@ export const characters = [
   },
   {
     name: 'mystique',
+    displayName: 'Mystique',
     side: 'villians',
     colors: {
       backgroundColor: '#A1ADA7',
@@ -217,6 +225,7 @@ export const characters = [
   },
   {
     name: 'phoenix',
+    displayName: 'Phoenix',
     side: 'villians',
     colors: {
       backgroundColor: '#F8D082',
@@ -244,6 +253,7 @@ export const characters = [
   },
   {
     name: 'poison-ivy',
+    displayName: 'Poinson Ivy',
     side: 'villians',
     colors: {
       backgroundColor: '#E29C9C',

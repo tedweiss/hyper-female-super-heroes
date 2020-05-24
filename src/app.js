@@ -18,7 +18,11 @@ exports.decorateConfig = config => {
   const characterName = character.name
   const backgroundPath = path.resolve(__dirname, 'src/images')
   const backgroundContent =
-    'url("file://' + backgroundPath + '/' + characterName + '.png") bottom right / contain no-repeat'
+    'url("file://' +
+    backgroundPath +
+    '/' +
+    characterName +
+    '.png") bottom right / contain no-repeat'
   const schemeBackgroundColor = color(primary)
     .alpha(0)
     .string()

@@ -13,7 +13,10 @@
   "description": "female super heroes theme for hyper",
   "dependencies": {
     "acorn": "^6.0.0",
-    "color": "^3.0.0"
+    "color": "^3.0.0",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
+    "styled-components": "^5.1.0"
   },
   "devDependencies": {
     "@babel/cli": "^7.2.3",
@@ -25,6 +28,7 @@
     "babel-core": "^7.0.0-bridge.0",
     "babel-jest": "^24.8.0",
     "babel-loader": "^8.0.5",
+    "babel-plugin-transform-class-properties": "^6.24.1",
     "css-loader": "^2.1.0",
     "jest": "^24.8.0",
     "regenerator-runtime": "^0.13.1",
@@ -35,23 +39,14 @@
     "webpack-dev-server": "^3.10.3"
   },
   "scripts": {
+    "build": "webpack --mode production ./src/character-list/index.js --output ./main.js",
     "dev": "webpack --mode development ./src/app.js --output ./index.js",
     "pro": "webpack --mode production ./src/app.js --output ./index.js",
     "test": "jest --watch -o"
   },
   "standard": {
     "parser": "babel-eslint",
-    "globals": [
-      "describe",
-      "test",
-      "expect"
-    ]
-  },
-  "babel": {
-    "presets": [
-      "@babel/preset-env",
-      "@babel/preset-react"
-    ]
+    "globals": ["describe", "test", "expect"]
   },
   "repository": {
     "type": "git",
