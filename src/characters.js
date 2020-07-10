@@ -1,5 +1,32 @@
 export const characters = [
   {
+    name: 'bat-girl',
+    side: 'heroes',
+    colors: {
+      backgroundColor: '#5d5c5c',
+      tabs: '#3d4a8b',
+      activeTabBottomColor: '#e89d26'
+    },
+    terminalTextColors: {
+      black: '#000000',
+      red: '#f24141',
+      green: '#aef241',
+      yellow: '#e89d26',
+      blue: '#4170f2',
+      magenta: '#C3A3FA',
+      cyan: '#07CCD9',
+      white: '#FFFFFF',
+      lightBlack: '#000000',
+      lightRed: '#FFB5BE',
+      lightGreen: '#aef241',
+      lightYellow: '#efd384',
+      lightBlue: '#4170f2',
+      lightMagenta: '#CDBCFF',
+      lightCyan: '#08F0FF',
+      lightWhite: '#FFFFFF'
+    }
+  },
+  {
     name: 'invisible-woman',
     side: 'heroes',
     colors: {
@@ -32,7 +59,7 @@ export const characters = [
     colors: {
       backgroundColor: '#A58A49',
       tabs: '#2778AB',
-      activeTabBottomColor: '#A9443D',
+      activeTabBottomColor: '#A9443D'
     },
     terminalTextColors: {
       black: '#000000',
@@ -212,6 +239,33 @@ export const characters = [
       lightBlue: '#0C33FF',
       lightMagenta: '#E10EFF',
       lightCyan: '#08F0FF',
+      lightWhite: '#FFFFFF'
+    }
+  },
+  {
+    name: 'star-sapphire',
+    side: 'villians',
+    colors: {
+      backgroundColor: '#420e38',
+      tabs: '#c430af',
+      activeTabBottomColor: '#e0a6d8'
+    },
+    terminalTextColors: {
+      black: '#696969',
+      red: '#e0174c',
+      green: '#17e068',
+      yellow: '#d6e017',
+      blue: '#1772e0',
+      magenta: '#9E006E',
+      cyan: '#17e0d1',
+      white: '#FFFFFF',
+      lightBlack: '#696969',
+      lightRed: '#f297f2',
+      lightGreen: '#B2EDC1',
+      lightYellow: '#d6e017',
+      lightBlue: '#1D2FD6',
+      lightMagenta: '#F7B9FF',
+      lightCyan: '#72E0FF',
       lightWhite: '#FFFFFF'
     }
   },

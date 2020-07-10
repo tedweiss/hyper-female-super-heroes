@@ -78,16 +78,13 @@ The assignable values are:
 - `character name` - choose any of the available Female Super Heroes characters by defining their name.<br/><br/>**i.e.** `character: 'x-23'`, `character: 'wasp'`, `character: 'mystique'` **etc**<br/><br/>
 
 - `random` - randomly selects a Female Super Heroes character theme from **all available characters**, each time you fire up a new Hyper terminal session.<br/><br/>
-**i.e.** `character: 'random'`<br/><br/>
+  **i.e.** `character: 'random'`<br/><br/>
 
 - `heroes/villians side` - randomly selects a Female Super Heroes character theme from the **heroes side** or the **villians side**, each time you fire up a new Hyper terminal session.<br/><br/>
-**i.e.** `character: 'heroes'`, `character: 'villians'`<br/><br/>
+  **i.e.** `character: 'heroes'`, `character: 'villians'`<br/><br/>
 
 - `character array` - randomly selects a Female Super Heroes character theme/theme option from a **defined array** holding **custom multiple themes/theme options**, each time you fire up a new Hyper terminal session. Any from the available Female Super Heroes character **themes** can be chosen!<br/><br/>
-**i.e.**
-	- `character: ['x-23', 'heroes', 'villians', 'phoenix']`
-	- `character: ['invisible-woman', 'wasp', 'x-23', 'mystique']`
-	- `character: ['phoenix', 'wasp', 'random', 'mystique', 'invisible-woman']` **etc**<br/><br/>
+  **i.e.** - `character: ['x-23', 'heroes', 'villians', 'phoenix']` - `character: ['invisible-woman', 'wasp', 'x-23', 'mystique']` - `character: ['phoenix', 'wasp', 'random', 'mystique', 'invisible-woman']` **etc**<br/><br/>
 
 ### `avatar`
 
@@ -116,22 +113,27 @@ In addition, completely omitting the `avatar` option from your `.hyper.js` will 
 
 <br/>
 
-* `catwoman`
-* `harley-quinn`
-* `invisible-woman`
-* `ms-marvel`
-* `mystique`
-* `phoenix`
-* `posion-ivy`
-* `wasp`
-* `wonder-woman`
-* `x-23`
+- `bat-girl`
+- `catwoman`
+- `harley-quinn`
+- `invisible-woman`
+- `ms-marvel`
+- `mystique`
+- `phoenix`
+- `posion-ivy`
+- `star-sapphire`
+- `wasp`
+- `wonder-woman`
+- `x-23`
 
 <br/>
 
 </details>
 <br/>
 <div align="center">
+  <h3>Bat Girl</h3>
+  <img class="character-image" src="src/images/screen-shots/screen-shot-bat-girl.png" alt="Bat Girl" width="50%">
+
   <h3>Catwoman</h3>
   <img class="character-image" src="src/images/screen-shots/screen-shot-catwoman.png" alt="Catwoman" width="50%">
 
@@ -152,6 +154,9 @@ In addition, completely omitting the `avatar` option from your `.hyper.js` will 
 
   <h3>Phoenix</h3>
   <img class="character-image" src="src/images/screen-shots/screen-shot-phoenix.png" alt="Phoenix" width="50%">
+
+  <h3>Star Sapphire</h3>
+  <img class="character-image" src="src/images/screen-shots/screen-shot-star-sapphire.png" alt="Star Sapphire" width="50%">
  
   <h3>Wasp</h3>
   <img class="character-image" src="src/images/screen-shots/screen-shot-wasp.png" alt="Wasp" width="50%">
@@ -165,8 +170,8 @@ In addition, completely omitting the `avatar` option from your `.hyper.js` will 
 
 ## Team
 
-* Code by Ted Weiss [(@tedweiss)](https://github.com/tedweiss)  
-* Design by Hilary Matusiak [(@hwilson2563)](https://github.com/hwilson2563)
+- Code by Ted Weiss [(@tedweiss)](https://github.com/tedweiss)
+- Design by Hilary Matusiak [(@hwilson2563)](https://github.com/hwilson2563)
 
 ## License
 
