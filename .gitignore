@@ -3,6 +3,7 @@ node_modules
 
 # compiled output
 index.js
+!src/character-list/index.js
 
 # logs
 *.log
