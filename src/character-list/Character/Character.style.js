@@ -7,12 +7,16 @@ export const StyledCharacter = styled.div`
 `
 export const Name = styled.h2`
   font-family: Bangers;
-  font-size: 36px;
+  font-size: 26px;
+  letter-spacing: 2px;
   text-align: center;
   margin: 0 0 20px;
 `
 export const Main = styled.div`
   text-align: center;
+  code {
+    font-size: 18px;
+  }
   @media screen and (min-width: 900px) {
     display: flex;
     justify-content: space-around;

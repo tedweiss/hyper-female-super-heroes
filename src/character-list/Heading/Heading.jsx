@@ -1,7 +1,8 @@
 import React, { useState, useEffect } from 'react'
 
 import { characters } from '../../characters'
-import { CountTitle, SubTitle, Title } from './Heading.style'
+import { CountTitle, SubTitle, Title, Logo } from './Heading.style'
+import svgLogo from './hyperthemebanner.svg'
 
 const Heading = () => {
   const [characterCount, setCharacterCount] = useState(0)
@@ -15,6 +16,7 @@ const Heading = () => {
 
   return (
     <>
+      <Logo src={svgLogo} alt={'hyper female super hero and villains'}/>
       <Title>Hyper Female Super Heroes</Title>
       <SubTitle>
         Hyper female super heroes are here to save your boring terminal.

@@ -30,6 +30,7 @@
     "babel-loader": "^8.0.5",
     "babel-plugin-transform-class-properties": "^6.24.1",
     "css-loader": "^2.1.0",
+    "file-loader": "^6.0.0",
     "jest": "^24.8.0",
     "regenerator-runtime": "^0.13.1",
     "standard": "^12.0.1",
@@ -46,7 +47,11 @@
   },
   "standard": {
     "parser": "babel-eslint",
-    "globals": ["describe", "test", "expect"]
+    "globals": [
+      "describe",
+      "test",
+      "expect"
+    ]
   },
   "repository": {
     "type": "git",
